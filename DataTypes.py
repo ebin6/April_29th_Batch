@@ -6,6 +6,14 @@ Numbers
 
 string
 
+List 
+
+Tuple
+
+Dictionary
+ 
+Boolean
+
 """
 
 my_list=[12,8.4,"Ebin",34,["Rading","OneTeam","Kochi"]]
