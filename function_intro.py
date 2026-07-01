@@ -1,7 +1,7 @@
 def total(*args):
     sum=0
-    for k in args:
-        sum+=k
+    for k in args:   #  args -->  (34,21,12)
+        sum=sum+k
     print(sum)
 
 total(34,21,12)
