@@ -1,4 +1,4 @@
-class Students:
+'''class Students:
     institute="OneTeam"
     def __init__(self,n,p):
         self.name=n
@@ -13,4 +13,20 @@ class PythonStudents(Students):
         super().__init__(n,p)
 
 pstd1=PythonStudents("Python FullStack","Akshay","Kochi")
-pstd1.display()
+pstd1.display()'''
+
+class A:
+    def __init__(self):
+        print("Hello from class A")
+
+class B:
+    def __init__(self):
+        A.__init__(self)
+        print("Hello from class B")
+
+class C(B,A):
+    def __init__(self):
+        super().__init__()
+        print("Hi from class C")
+
+ob=C()
